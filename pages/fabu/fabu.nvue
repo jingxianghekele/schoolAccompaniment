@@ -1,0 +1,68 @@
+<template>
+	<view class="release-wrap">
+		<view class="item-wrap">
+			<view class="release-item" v-for="(item, index) in items" :key="index" @click="toPage(item.a)">
+				<image :src="item.src" class="item-img"></image>
+				<view><text class="name">{{item.name}}</text></view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				items:[
+					{
+						src:'/static/img/publish_icon_rent@2x.png',	name:'发布转卖','a':'/pages/fabu/zhuanmai'
+					},
+					{
+						src:'/static/img/publish_icon_sought@2x.png',name:'发布求购','a':'/pages/fabu/qiugou'
+					},
+					{
+						src:'/static/img/piblic_icon_activity@2x.png',name:'发布活动','a':'/pages/fabu/huodong'
+					},
+					{
+						src:'/static/img/publish_icon_sociality@2x.png',name:'发布搬家','a':'/pages/fabu/banjia'
+					},
+					{
+						src:'/static/img/publish_icon_house@2x.png',name:'发布租房','a':'/pages/fabu/zufang'
+					},
+					{
+						src:'/static/img/publish_icon_City Concessions@2x.png',name:'周边服务','a':'/pages/fabu/zhoubian'
+					}
+				]
+				
+			};
+		},
+		methods:{
+			toPage(){
+				uni.navigateTo({
+					url:a
+				})
+			},
+			close () {
+				uni.$emit('close-release', {}) //传递值
+			},
+			toPage(a){
+				uni.navigateTo({
+					url:a
+				})
+			}
+		}
+	}
+</script>
+
+<style scoped>
+.release-wrap{
+	width: 750upx;
+	display: flex;flex-direction: column;align-items: center;
+}
+.item-wrap{margin-top: 834upx;width: 704upx;flex-direction: row;flex-wrap: wrap;}
+.release-item{
+	width: 234.3upx;margin-top: 30upx;
+}
+.item-img{ width: 100upx;height: 100upx;margin:0 66upx;}
+.name{font-size: 20upx;width: 120upx;text-align: center;color: #fff;margin:20upx 60upx}
+</style>

@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "考研升学",
+  "usingComponents": {
+    "benxiaokaoyan": "/components/index/kaoyanshenxue/benxiaokaoyan"
+  }
+}

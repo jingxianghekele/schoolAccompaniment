@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "兼职招聘",
+  "usingComponents": {
+    "jia-jiao": "/components/index/part-time/jiajiao"
+  }
+}

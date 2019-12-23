@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "校内新闻",
+  "usingComponents": {
+    "jiaowuxinwen": "/components/index/xiaoneixinwen/jiaowuxinwen"
+  }
+}

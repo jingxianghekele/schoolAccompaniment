@@ -1,0 +1,16 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": " ",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right",
+        "width": "26px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

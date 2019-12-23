@@ -1,0 +1,110 @@
+
+.app {
+	width: 750rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+}
+.inner{
+	width:94%;
+	height:100%;
+	border:0rpx solid red;
+}
+.title,.describe,.price,.type,.area,.tel,.wechat,.QQ,.other,.begin,.end,.number,.areas{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;
+	border-bottom:1rpx solid #E1E1E1;
+}
+.title view,.describe view,.price view,.type view,.area view,.areas view,.tel view,.wechat view,.QQ view,.other view,.begin view,.end view,.number view{
+	font-size:32rpx;font-weight:bold;
+	color:rgba(33,33,33,1);
+	opacity:1;
+}
+.image{
+	font-size:32rpx;
+	font-weight:bold;
+	color:rgba(33,33,33,1);
+	opacity:1;
+	border-bottom:1rpx solid #E1E1E1;
+	padding-top:20rpx;
+	height:318rpx;
+}
+.addImg{
+	width:160rpx;
+	height:160rpx;
+	margin-top:36rpx;
+	margin-left:60rpx;
+}
+.addImg ._img{
+	width:160rpx;
+	height:160rpx;
+}
+.title,.begin,.type,.area,.tel,.wechat,.QQ,.end,.number,.areas{
+	line-height:104rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;-webkit-box-align: center;-webkit-align-items: center;align-items: center;
+}
+.title input,.area input,.areas input,.tel input,.wechat input,.QQ input,.number input{
+	padding-left:22rpx;
+	border:0rpx solid red;
+	width:60%;
+	color:#666;
+	font-size:28rpx;
+}
+.image ._span{
+	color:#666;
+	font-size:28rpx;
+	font-weight:normal
+}
+.describe,.other{
+	height:240rpx;
+	padding-top:20rpx;
+	border:0rpx solid red;
+	border-bottom:1rpx solid #E1E1E1
+}
+.describe textarea,.other textarea{
+	padding-left:22rpx;
+	border:0rpx solid red;
+	height:200rpx;
+	padding-top:5rpx;
+	color:#666;
+	font-size:28rpx;
+	width:80%
+}
+.button{
+	margin:98rpx 0 236rpx 0;
+}
+.button button{
+	width:648rpx;
+	height:80rpx;
+	background:rgba(255,195,0,1);
+	opacity:1;
+	border-radius:40px;
+	font-size:28rpx;
+	color: #212121;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-weight:bold;
+}
+

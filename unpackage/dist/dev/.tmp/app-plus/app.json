@@ -1,0 +1,94 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/news",
+    "pages/ownmarket/index",
+    "pages/ownmarket/details",
+    "pages/ownmarket/all_pingjia",
+    "pages/ownmarket/gouwuche",
+    "pages/ownmarket/tijiaodingdan",
+    "pages/ownmarket/zhifuchenggong",
+    "pages/fabu/zhuanmai",
+    "pages/fabu/qiugou",
+    "pages/fabu/huodong",
+    "pages/fabu/banjia",
+    "pages/fabu/zufang",
+    "pages/fabu/zhoubian",
+    "pages/order/order",
+    "pages/personal/personal",
+    "pages/index/search",
+    "pages/index/rent/index",
+    "pages/index/rent/details",
+    "pages/index/rent/tijiaodingdan",
+    "pages/index/rent/zhifuchenggong",
+    "pages/index/part-time/index",
+    "pages/index/part-time/details",
+    "pages/index/biyezhiyin/index",
+    "pages/index/biyezhiyin/biyezhao_details",
+    "pages/index/biyezhiyin/banjia_details",
+    "pages/index/biyezhiyin/zufang_details",
+    "pages/index/biyezhiyin/zhuanmai_details",
+    "pages/index/zhoubianfuwu/index",
+    "pages/index/zhoubianfuwu/details",
+    "pages/index/kaoyanshengxue/index",
+    "pages/index/kaoyanshengxue/details",
+    "pages/index/huodongzhuanqu/index",
+    "pages/index/huodongzhuanqu/details",
+    "pages/index/xiaoneixinwen/index",
+    "pages/index/xinshengzhiyin/index",
+    "pages/index/xinshengzhiyin/details"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "spacing": "12rpx",
+    "selectedColor": "#FFC300",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "midButton": {
+      "text": "发布",
+      "iconPath": "/static/img/fabu@2x.png",
+      "height": "80",
+      "iconWidth": "60px"
+    },
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/img/tab_index_default@2x.png",
+        "selectedIconPath": "/static/img/tab_index_pressed@2x.png"
+      },
+      {
+        "pagePath": "pages/ownmarket/index",
+        "text": "自营商城",
+        "iconPath": "/static/img/tab_shopping_default@2x.png",
+        "selectedIconPath": "/static/img/tab_shopping_pressed@2x.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "/static/img/tab_order_default@2x.png",
+        "selectedIconPath": "/static/img/tab_order_pressed@2x.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "/static/img/tab_home_default@2x.png",
+        "selectedIconPath": "/static/img/tab_home_pressed@2x.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "schoolAccompaniment",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

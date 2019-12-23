@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.uni-checkbox-input.data-v-23261a10 {
+	border-radius: 50% !important;
+	color: #ffffff !important;
+}
+.uni-checkbox-input.uni-checkbox-input-checked.data-v-23261a10 {
+	color: #fff;
+	border-color: rgba(255, 195, 0, 1);
+	background: rgba(255, 195, 0, 1);
+}
+.uni-checkbox-input.uni-checkbox-input-checked.data-v-23261a10:after {
+	font-size: 18px;
+}
+

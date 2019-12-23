@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"app{ width:",[0,750],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; position: absolute; }\n",],undefined,{path:"./pages/index/search.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/search.wxml') } }));

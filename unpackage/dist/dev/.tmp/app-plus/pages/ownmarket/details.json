@@ -1,0 +1,16 @@
+{
+  "navigationBarBackgroundColor": "rgba(255,0,0,0)",
+  "navigationBarTitleText": "商品详情",
+  "titleNView": {
+    "type": "float",
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

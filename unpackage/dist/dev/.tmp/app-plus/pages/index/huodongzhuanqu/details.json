@@ -1,0 +1,17 @@
+{
+  "navigationBarBackgroundColor": "#FFffff",
+  "navigationBarTitleText": "详情",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right",
+        "width": "26px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "prompt": "/components/zz-prompt/index",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

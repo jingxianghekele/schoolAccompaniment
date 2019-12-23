@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "活动专区",
+  "usingComponents": {
+    "huodongzhuanqu": "/components/index/huodongzhuanqu/details"
+  }
+}

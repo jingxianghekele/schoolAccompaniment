@@ -1,0 +1,196 @@
+
+.app{
+	width:750rpx;height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+	border:0rpx solid red;
+	position: absolute;
+}
+.body{
+	width:100%;
+	border:0rpx solid red;
+}
+/*兼职主要信息--------------------------------*/
+.job{
+	width:100%;
+	border:0rpx solid red;
+}
+.job1{
+	border-bottom:1rpx solid #E1E1E1
+}
+.job1,.job2{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.job1s,.job2s{
+	width:94%;
+	height:136rpx;
+	border:0rpx solid green;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin:14rpx 0
+}
+.name{
+	font-size:36rpx;
+	color:#212121;
+}
+.price{
+	font-size:30rpx;
+	color:#F90A0A;
+}
+.time{
+	font-size:24rpx;
+	color:#666666;
+}
+.work{
+	font-size:26rpx;
+	color:#212121;
+}
+.number{
+	font-size:26rpx;
+	color:#212121;
+}
+.area{
+	font-size:26rpx;
+	color:#212121;
+}
+.work ._span,.number ._span,.area ._span{
+	color:#666666
+}
+/*信息描述的部分----------------------------------------*/
+.desc{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.descs{
+	width:100%;
+	height:66rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	border:0rpx solid red;
+	border-bottom:1rpx solid #E1E1E1
+}
+.title{
+	width:94%;
+	font-size:28rpx;
+	color:#212121;
+	margin-left:24rpx;
+	font-weight:bold
+}
+.text{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.txt{
+	margin-top:8rpx;
+	width:94%;
+	font-size:28rpx;
+	color:#212121;
+	line-height:40rpx
+}
+/*拨打电话----------------------------------------------*/
+.call{
+	position: fixed;
+	left:0;
+	bottom:0rpx;
+	width:100%;
+	box-shadow:0px 1rpx 8px -4px #ccc;
+	border:0rpx solid red;
+	height:98rpx;
+}
+.calls{
+	width:100%;
+	height:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.but{
+	width:94%;
+	height:80rpx;
+	background:rgba(255,195,0,1);
+	opacity:1;
+	border-radius:44rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align:center ;
+	-webkit-align-items:center ;
+	        align-items:center ;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-size:30rpx;
+	color:#212121;
+	font-weight:bold
+}
+.but ._img{
+	width:40rpx;
+	height:40rpx;
+	border:0rpx solid green;
+	margin-right:40rpx;
+}
+

@@ -1,0 +1,39 @@
+
+.listRound{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border-bottom:1rpx solid #E1E1E1;
+	padding:32rpx 0 34rpx 0;
+}
+.img{
+	margin-left:12rpx;
+	width:176rpx;
+	height:178rpx;
+	margin-right:20rpx;
+}
+.text{
+	margin-top:6rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.name{
+	font-size:30rpx;
+	color:#212121;
+	margin-bottom: 50rpx;
+	font-weight:bold;
+}
+.desc{
+	font-size:26rpx;
+	color: #B8B4B4;
+}
+

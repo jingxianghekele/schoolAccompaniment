@@ -1,0 +1,60 @@
+
+.listRound{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border-bottom:1rpx solid #E1E1E1;
+	padding:32rpx 0 34rpx 0;
+}
+.img{
+	margin-left:12rpx;
+	width:176rpx;
+	height:178rpx;
+	margin-right:20rpx;
+}
+.text{
+	margin-top:6rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.name{
+	font-size:30rpx;
+	color:#212121;
+	margin-bottom: 28rpx;
+	font-weight:bold;
+}
+.number{
+	font-size:26rpx;
+	color: #B8B4B4;
+	margin-bottom:28rpx
+}
+.area{
+	font-size:26rpx;
+	color: #666;
+	border:0rpx solid red;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.area image{
+	width:28rpx;
+	height:32rpx;
+	margin-right:10rpx;
+}
+

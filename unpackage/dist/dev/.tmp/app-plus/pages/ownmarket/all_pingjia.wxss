@@ -1,0 +1,119 @@
+
+.app {
+	width: 750rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 100%;
+	position: relative;
+}
+.all_pingjia{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.mid{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	width:100%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top:30rpx;
+	border-bottom:1rpx solid;
+	color:#FAFAFA;
+}
+.mid_user{
+	width:94%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border:0rpx solid red;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.userimg{
+	width:60rpx;
+	height:60rpx;
+	margin-right:12rpx;
+}
+.username{
+	font-size:24rpx;
+	color:#B8B4B4;
+	font-weight:600;
+	margin-right:32rpx;
+}
+.star{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.star image{
+	width:20rpx;
+	height:20rpx;
+}
+.times{
+	color:#B8B4B4;
+	font-size:24rpx;
+}
+.mid_inner{
+	width:75%;
+	border:0rpx solid red;
+	margin-top:10rpx;
+}
+.innertxt{
+	font-size:24rpx;
+	color:#666666;
+}
+.inner_pingjia{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border:0rpx solid red;
+}
+.inner_pingjia image{
+	width:200rpx;
+	height:200rpx;
+	margin-right:20rpx;
+}
+
+

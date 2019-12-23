@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*校内资讯第一篇*/
+.sch1{
+	width:100%;
+	padding:40rpx 0 ;
+	border-bottom:1rpx solid #E1E1E1
+}
+.sch1Name{
+	font-weight:bold;
+	width:100%;
+	font-size:28rpx;
+	color:#212121;
+	margin-bottom:8rpx;
+}
+.sch1_img{
+	width:100%;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex ;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border:0rpx solid #3F536E;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border:0rpx solid #008000
+}
+.img_img{
+	width:220rpx;
+	height:140rpx;
+	border:0rpx solid red
+}
+/*校内资讯第二篇*/
+.sch2{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding:40rpx 0 ;
+	border-bottom:1rpx solid #E1E1E1
+}
+.sch2Name{
+	font-weight:bold;
+	width:100%;
+	font-size:28rpx;
+	color:#212121;
+	margin-bottom:8rpx
+}
+.sch2Text{
+	width:100%;
+	font-size:24rpx;
+	color:#A5A5A5
+}
+/*第三四五篇文章*/
+.sch345{
+	border:0rpx solid red;
+	width:100%
+}
+.sch345_round{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border:0rpx solid blue;
+	padding:40rpx 0;
+	border-bottom:1rpx solid #E1E1E1
+}
+.sch345_name{
+	font-weight:bold;
+	font-size:28rpx;
+	color:#212121;
+	margin-bottom:8rpx;
+	width:432rpx;
+}
+.sch345_text{
+	font-size:24rpx;
+	color:#A5A5A5;
+	width:432rpx;
+}
+.sch345_img{
+	width:220rpx;
+	height:140rpx;
+}
+

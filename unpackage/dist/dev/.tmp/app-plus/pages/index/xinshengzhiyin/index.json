@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "新生指引",
+  "usingComponents": {
+    "xinshengzhiyin": "/components/index/xinshengzhiyin/details"
+  }
+}

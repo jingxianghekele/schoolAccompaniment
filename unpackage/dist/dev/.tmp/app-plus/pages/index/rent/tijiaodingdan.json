@@ -1,0 +1,14 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "提交订单",
+  "titleNView": {
+    "autoBackButton": "false",
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

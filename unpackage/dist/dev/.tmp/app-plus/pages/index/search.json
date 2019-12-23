@@ -1,0 +1,20 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "float": "right",
+        "text": "搜索",
+        "fontSize": "16px",
+        "width": "32px"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#E7E4E4",
+      "borderRadius": "20px",
+      "placeholder": "搜索您感兴趣的商品",
+      "autoFocus": "true"
+    }
+  },
+  "usingComponents": {}
+}

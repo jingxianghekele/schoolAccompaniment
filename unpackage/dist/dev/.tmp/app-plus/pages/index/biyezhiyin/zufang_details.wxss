@@ -1,0 +1,234 @@
+
+.app {
+	width: 750rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+}
+.head {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	border: 0rpx solid red
+}
+
+/*图片、名字那一块------------------------------*/
+.img image {
+	width: 100%;
+	height: 350rpx;
+}
+.name {
+	font-size: 32rpx;
+	font-weight: bold;
+	margin: 40rpx 0 40rpx 24rpx;
+}
+
+/*活动信息---------------------------------------*/
+.shangjia {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.time {
+	font-size: 26rpx;
+	color: #2D2D2D;
+	margin-left: 34rpx;
+	margin-top: 20rpx;
+	font-weight: bold;
+}
+.number {
+	font-size: 26rpx;
+	color: #2D2D2D;
+	margin-left: 34rpx;
+	margin-top: 20rpx;
+	font-weight: bold;
+}
+.top {
+	font-size: 30rpx;
+	color: #2D2D2D;
+	background: #FAFAFA;
+	padding-left: 34rpx;
+	line-height: 80rpx;
+	font-weight: bold;
+}
+.details {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.tit {
+	font-size: 26rpx;
+	color: #2D2D2D;
+	margin-left: 34rpx;
+	margin-top: 20rpx;
+	font-weight: bold;
+	border: 0rpx solid red
+}
+.area {
+	font-size: 26rpx;
+	color: #B8B4B4;
+	margin: 28rpx 0 14rpx 96rpx;
+	border: 0rpx solid red
+}
+.lianxi {
+	font-size: 26rpx;
+	color: #2D2D2D;
+	font-weight: bold;
+	margin-left: 34rpx;
+	margin-top: 40rpx;
+}
+.tel {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 108rpx;
+}
+.tel view {
+	font-size: 26rpx;
+	color: #2D2D2D;
+	margin-top: 12rpx
+}
+.tel view ._span {
+	font-size: 26rpx;
+	color: #B8B4B4;
+	text-align: center;
+}
+
+/*详细描述------------------------------------*/
+.desc {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-bottom: 98rpx;
+}
+.message {
+	font-size: 30rpx;
+	color: #2D2D2D;
+	background: #FAFAFA;
+	padding-left: 34rpx;
+	line-height: 80rpx;
+	font-weight: bold;
+	margin-top: 28rpx;
+}
+.text {
+	font-size: 30rpx;
+	width: 94%;
+	margin: 30rpx auto
+}
+
+/*底部按钮--------------------------*/
+.button {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border: 0rpx solid red;
+	background: #FFFFFF;
+	box-shadow: 0px 1rpx 8px -4px #ccc;
+}
+.buts {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 10rpx 0;
+}
+.buts view {
+	width: 94%;
+	background: #FFC300;
+	border-radius: 44rpx;
+	font-size: 30rpx;
+	line-height: 80rpx;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*分享到-------------------------------*/
+.share {
+	width: 100%;
+	height: 256rpx;
+	background: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.where {
+	width: 85%;
+	margin-top: 22rpx;
+	border: 0rpx solid red;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.picture {
+	width: 72rpx;
+	height: 72rpx;
+}
+.tool {
+	font-size: 26rpx;
+}
+.cho {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

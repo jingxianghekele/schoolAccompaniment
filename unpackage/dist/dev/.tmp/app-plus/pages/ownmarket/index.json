@@ -1,0 +1,21 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/icon/iconfont.ttf"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#FFE180",
+      "borderRadius": "20px",
+      "placeholder": "搜索您想要的商品",
+      "placeholderColor": "#212121",
+      "fontSize": "30px",
+      "autoFocus": "blur",
+      "disabled": true
+    }
+  },
+  "usingComponents": {}
+}

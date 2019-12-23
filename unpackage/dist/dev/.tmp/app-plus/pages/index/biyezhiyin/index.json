@@ -1,0 +1,13 @@
+{
+  "navigationBarBackgroundColor": "#FFC300",
+  "navigationBarTitleText": "毕业指引",
+  "usingComponents": {
+    "biyezhao": "/components/index/biyezhiyin/biyezhao",
+    "banjia": "/components/index/biyezhiyin/banjia",
+    "biyeliucheng": "/components/index/biyezhiyin/biyeliucheng",
+    "qiugouzhuanqu": "/components/index/biyezhiyin/qiugouzhuanqu",
+    "zufang": "/components/index/biyezhiyin/zufang",
+    "lunwenfuwu": "/components/index/biyezhiyin/lunwenfuwu",
+    "zhuanmai": "/components/index/biyezhiyin/zhuanmai"
+  }
+}
